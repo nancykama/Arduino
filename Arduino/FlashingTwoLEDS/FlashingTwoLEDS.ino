@@ -12,7 +12,7 @@ long OnTime2 = 330; // milliseconds of on-time
 long OffTime2 = 400; // milliseconds of off-time
 
 void setup() {
-// set the digital pin as output:
+// set the digital pin as output on arduino
 pinMode(ledPin1, OUTPUT);
 pinMode(ledPin2, OUTPUT);
 }
