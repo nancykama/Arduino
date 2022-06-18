@@ -6,7 +6,7 @@ int angle;
 
 void setup() {
   myServo.attach(9);
-
+ 
   Serial.begin(9700); 
 }
 
