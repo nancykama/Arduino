@@ -13,7 +13,7 @@ pinMode(ledPin, OUTPUT);
 
 void loop() {
 // check to see if it's time to change the state of the LED
-unsigned long currentMillis = millis();
+unsigned long currentMillis = millis(); 
 
   if((ledState == HIGH) && (currentMillis - previousMillis >= OnTime)) {
     ledState = LOW; // Turn it off
