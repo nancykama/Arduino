@@ -11,7 +11,7 @@ void setup(){
 
 void loop(){
   int sensorVal = analogRead(sensorPin);
-  Serial.print("Sensor Value: ");
+  Serial.print("Sensor Value: "); 
   Serial.print(sensorVal);
   
   // convert the ADC reading to voltage
