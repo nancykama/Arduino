@@ -7,7 +7,7 @@ long OnTime = 350; // milliseconds of on-time
 long OffTime = 650; // milliseconds of off-time 
 
 void setup() {
-// set the digital pin as output:
+// set the digital pin as output: 
 pinMode(ledPin, OUTPUT); 
 }
  
