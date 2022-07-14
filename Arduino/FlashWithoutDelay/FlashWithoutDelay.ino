@@ -8,7 +8,7 @@ long OffTime = 650; // milliseconds of off-time
 
 void setup() {
 // set the digital pin as output:
-pinMode(ledPin, OUTPUT);
+pinMode(ledPin, OUTPUT); 
 }
 
 void loop() {
