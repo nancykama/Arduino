@@ -8,7 +8,7 @@ void setup(){
      digitalWrite(pinNumber, LOW);
   }
 }
-
+   
 void loop(){
   int sensorVal = analogRead(sensorPin);
   Serial.print("Sensor Value: "); 
